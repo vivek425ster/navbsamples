@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="13f3e72b-31ac-4484-a005-0064afe09367" name="navb@NAVB2 2018-04-24 14:01:50" runUser="FAREAST\navb" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2018-04-24T14:01:50.4514636+05:30" queuing="2018-04-24T14:01:50.4514636+05:30" start="2018-04-24T14:01:49.1467703+05:30" finish="2018-04-24T14:01:50.5139381+05:30" />
+  <TestSettings name="default" id="4e7f8783-389c-4db7-af7a-440dc14a77be">
+    <Deployment runDeploymentRoot="navb_NAVB2_2018-04-24_14_01_50" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="1b0a5a00-b0df-45d6-bc18-dd21e2bf552c" testId="e2b3912c-d10e-daaf-b42e-887d4b1d0795" testName="TestMethod1" computerName="NAVB2" duration="00:00:00.0091315" startTime="2018-04-24T14:01:49.9710758+05:30" endTime="2018-04-24T14:01:50.0648316+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b0a5a00-b0df-45d6-bc18-dd21e2bf552c" />
+    <UnitTestResult executionId="475869aa-517f-4c6c-ab88-626127ddffa6" testId="e75278a0-a0ba-9a62-a237-78b6fb53aecf" testName="TestMethod2" computerName="NAVB2" duration="00:00:00.0001029" startTime="2018-04-24T14:01:50.0804902+05:30" endTime="2018-04-24T14:01:50.0804902+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="475869aa-517f-4c6c-ab88-626127ddffa6" />
+    <UnitTestResult executionId="888ddb72-124b-4da1-a398-21550249e4e9" testId="8f7d5553-98d3-3682-9bf1-20ecf3b6085b" testName="TestMethod3" computerName="NAVB2" duration="00:00:00.0000822" startTime="2018-04-24T14:01:50.0804902+05:30" endTime="2018-04-24T14:01:50.0804902+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="888ddb72-124b-4da1-a398-21550249e4e9" />
+    <UnitTestResult executionId="4c309f40-4976-452e-91d1-5d64062bbf3c" testId="cc0cb620-534e-7086-4b27-25aff21537be" testName="TestMethod11" computerName="NAVB2" duration="00:00:00.0496376" startTime="2018-04-24T14:01:50.0804902+05:30" endTime="2018-04-24T14:01:50.1356787+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c309f40-4976-452e-91d1-5d64062bbf3c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at TestProject.UnitTest1.TestMethod11() in C:\users\navb\source\repos\SampleProjectOP\FastTestProject\TestProject\TestProject\UnitTest1.cs:line 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6397faeb-8c1d-43e1-a39e-694975bf587d" testId="b097f29d-9657-402a-828d-cf34e15f1a53" testName="TestMethod22" computerName="NAVB2" duration="00:00:00.0012979" startTime="2018-04-24T14:01:50.1356787+05:30" endTime="2018-04-24T14:01:50.1356787+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6397faeb-8c1d-43e1-a39e-694975bf587d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at TestProject.UnitTest1.TestMethod22() in C:\users\navb\source\repos\SampleProjectOP\FastTestProject\TestProject\TestProject\UnitTest1.cs:line 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea0f90b4-0730-4448-9b41-0e3409301eb0" testId="4696d2af-2fe1-8bd2-c273-e13f28bb21c2" testName="TestMethod33" computerName="NAVB2" duration="00:00:00.0011392" startTime="2018-04-24T14:01:50.1356787+05:30" endTime="2018-04-24T14:01:50.1356787+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea0f90b4-0730-4448-9b41-0e3409301eb0">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at TestProject.UnitTest1.TestMethod33() in C:\users\navb\source\repos\SampleProjectOP\FastTestProject\TestProject\TestProject\UnitTest1.cs:line 39
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\navb\source\repos\sampleprojectop\fasttestproject\testproject\testproject\bin\debug\testproject.dll" id="e2b3912c-d10e-daaf-b42e-887d4b1d0795">
+      <Execution id="1b0a5a00-b0df-45d6-bc18-dd21e2bf552c" />
+      <TestMethod codeBase="C:\users\navb\source\repos\SampleProjectOP\FastTestProject\TestProject\TestProject\bin\Debug\TestProject.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="TestProject.UnitTest1" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="c:\users\navb\source\repos\sampleprojectop\fasttestproject\testproject\testproject\bin\debug\testproject.dll" id="e75278a0-a0ba-9a62-a237-78b6fb53aecf">
+      <Execution id="475869aa-517f-4c6c-ab88-626127ddffa6" />
+      <TestMethod codeBase="C:\users\navb\source\repos\SampleProjectOP\FastTestProject\TestProject\TestProject\bin\Debug\TestProject.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="TestProject.UnitTest1" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="c:\users\navb\source\repos\sampleprojectop\fasttestproject\testproject\testproject\bin\debug\testproject.dll" id="8f7d5553-98d3-3682-9bf1-20ecf3b6085b">
+      <Execution id="888ddb72-124b-4da1-a398-21550249e4e9" />
+      <TestMethod codeBase="C:\users\navb\source\repos\SampleProjectOP\FastTestProject\TestProject\TestProject\bin\Debug\TestProject.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="TestProject.UnitTest1" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod11" storage="c:\users\navb\source\repos\sampleprojectop\fasttestproject\testproject\testproject\bin\debug\testproject.dll" id="cc0cb620-534e-7086-4b27-25aff21537be">
+      <Execution id="4c309f40-4976-452e-91d1-5d64062bbf3c" />
+      <TestMethod codeBase="C:\users\navb\source\repos\SampleProjectOP\FastTestProject\TestProject\TestProject\bin\Debug\TestProject.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="TestProject.UnitTest1" name="TestMethod11" />
+    </UnitTest>
+    <UnitTest name="TestMethod22" storage="c:\users\navb\source\repos\sampleprojectop\fasttestproject\testproject\testproject\bin\debug\testproject.dll" id="b097f29d-9657-402a-828d-cf34e15f1a53">
+      <Execution id="6397faeb-8c1d-43e1-a39e-694975bf587d" />
+      <TestMethod codeBase="C:\users\navb\source\repos\SampleProjectOP\FastTestProject\TestProject\TestProject\bin\Debug\TestProject.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="TestProject.UnitTest1" name="TestMethod22" />
+    </UnitTest>
+    <UnitTest name="TestMethod33" storage="c:\users\navb\source\repos\sampleprojectop\fasttestproject\testproject\testproject\bin\debug\testproject.dll" id="4696d2af-2fe1-8bd2-c273-e13f28bb21c2">
+      <Execution id="ea0f90b4-0730-4448-9b41-0e3409301eb0" />
+      <TestMethod codeBase="C:\users\navb\source\repos\SampleProjectOP\FastTestProject\TestProject\TestProject\bin\Debug\TestProject.dll" executorUriOfAdapter="executor://mstestadapter/v2" className="TestProject.UnitTest1" name="TestMethod33" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e2b3912c-d10e-daaf-b42e-887d4b1d0795" executionId="1b0a5a00-b0df-45d6-bc18-dd21e2bf552c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e75278a0-a0ba-9a62-a237-78b6fb53aecf" executionId="475869aa-517f-4c6c-ab88-626127ddffa6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f7d5553-98d3-3682-9bf1-20ecf3b6085b" executionId="888ddb72-124b-4da1-a398-21550249e4e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc0cb620-534e-7086-4b27-25aff21537be" executionId="4c309f40-4976-452e-91d1-5d64062bbf3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b097f29d-9657-402a-828d-cf34e15f1a53" executionId="6397faeb-8c1d-43e1-a39e-694975bf587d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4696d2af-2fe1-8bd2-c273-e13f28bb21c2" executionId="ea0f90b4-0730-4448-9b41-0e3409301eb0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="3" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
