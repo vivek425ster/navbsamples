@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="orderedtest1" storage="c:\users\abhishk\source\repos\codeduitestproject17\codeduitestproject17\orderedtest1.orderedtest" id="4eb63268-af79-48f1-b625-05ef09b0301a" continueAfterFailure="true" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="fd846020-c6f8-3c49-3ed0-fbe1e1fd340b" name="CodedUITestMethod1" storage="bin\debug\codeduitestproject17.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="1c7ece84-d949-bed1-0a4c-dfad4f9c953e" name="CodedUITestMethod2" storage="bin\debug\codeduitestproject17.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="63ce1d81-77e2-4024-b62a-acaa1d48223c" name="orderedtest2" storage="orderedtest2.orderedtest" type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
