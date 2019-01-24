@@ -1,0 +1,32 @@
+<RunSettings>
+	<!-- Configurations that affect the Test Framework -->
+	<RunConfiguration>
+		<MaxCpuCount>1</MaxCpuCount>
+		<!-- Path relative to solution directory -->
+		<ResultsDirectory>C:\TestResults</ResultsDirectory>
+		<!-- [x86] | x64
+	  	- You can also change it from menu Test, Test Settings, Default Processor Architecture -->
+		<TargetPlatform>x86</TargetPlatform>
+		<!-- Framework35 | [Framework40] | Framework45 -->
+		<TargetFrameworkVersion>Framework40</TargetFrameworkVersion>
+	</RunConfiguration>
+	<DataCollectionRunSettings>
+		<DataCollectors>
+			<DataCollector assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0"/>
+			<DataCollector assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder" uri="datacollector://microsoft/VideoRecorder/1.0"/>
+			<DataCollector assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.EventLog.EventLogDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.EventLog, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Event Log" uri="datacollector://microsoft/EventLog/1.0"/>
+			<DataCollector assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information" uri="datacollector://microsoft/SystemInfo/1.0"/>
+		</DataCollectors>
+	</DataCollectionRunSettings>
+	<LoggerRunSettings>
+		<Loggers>
+			<Logger enabled="true" friendlyName="Console">
+				<Configuration>
+					<verbosity>detailed</verbosity>
+				</Configuration>
+			</Logger>
+			<Logger friendlyName="Trx"/>
+			<Logger friendlyName="blame"/>
+		</Loggers>
+	</LoggerRunSettings>
+</RunSettings>

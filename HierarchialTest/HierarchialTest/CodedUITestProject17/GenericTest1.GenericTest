@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GenericTest name="GenericTest1" storage="d:\testbed\hierarchialtest\codeduitestproject17\generictest1.generictest" id="f1a10817-36d0-4165-bac1-a7d5778093d2" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Command filename="D:\TestBed\HierarchialTest\ConsoleApp1\bin\Release\ConsoleApp1.exe" workingDirectory="%TestOutputDirectory%" />
+  <SummaryXmlFile path="%TestOutputDirectory%\&lt;Enter summary file name here&gt;" />
+</GenericTest>

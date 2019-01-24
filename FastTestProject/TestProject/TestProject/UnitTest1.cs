@@ -6,6 +6,25 @@ namespace TestProject
     [TestClass]
     public class UnitTest1
     {
+        public static int i = 0;
+        
+        [TestMethod]
+        [Owner("some1")]
+        [Priority(1)]
+        public void WillPassOnReRun1()
+        {
+            Assert.IsTrue(i++ % 4 == 0);
+        }
+
+
+        [TestMethod]
+        [Owner("some2")]
+        [Priority(2)]
+        public void WillPassOnReRun11()
+        {
+            Assert.IsTrue(i++ % 4 == 0);
+        }
+        
         [TestMethod]
         public void TestMethod1()
         {
