@@ -7,7 +7,11 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
+  name: Default
+  demands:
+    - msbuild
+    - visualstudio
+    - vstest
 
 variables:
   solution: '**/*.sln'
@@ -21,11 +25,20 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
 
-- task: VSBuild@1
+- task: MSBuild@1
   inputs:
-    solution: '$(solution)'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    solution: 'FastTestProject/TestProject/TestProject.sln'
+
+- task: VSTest@2
+  displayName: 'VsTest - testAssemblies'
+  inputs:
+    testAssemblyVer2: |
+     **\*TestProject*.dll
+     !**\obj\**
+    platform: '$(BuildPlatform)'
+    configuration: '$(BuildConfiguration)'
+  continueOnError: true
+  enabled: false
 
 - task: PublishTestResults@2
   displayName: 'Publish Test Results **/ResultsFileSamples/VsTsResults/*.trx'
@@ -33,4 +46,4 @@ steps:
     testResultsFormat: VSTest
     testResultsFiles: '**/ResultsFileSamples/VsTsResults/*.trx'
   continueOnError: true
-
+  enabled: true
