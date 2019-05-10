@@ -6,8 +6,9 @@
 trigger:
 - master
 
-#pool:
+pool:
 #  name: Default
+   name: 'Hosted Windows 2019 with VS2019'
 #  demands:
 #    - msbuild
 #    - visualstudio
