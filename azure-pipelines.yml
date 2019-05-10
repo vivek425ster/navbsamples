@@ -6,12 +6,12 @@
 trigger:
 - master
 
-pool:
-  name: Default
-  demands:
-    - msbuild
-    - visualstudio
-    - vstest
+#pool:
+#  name: Default
+#  demands:
+#    - msbuild
+#    - visualstudio
+#    - vstest
 
 variables:
   solution: '**/*.sln'
