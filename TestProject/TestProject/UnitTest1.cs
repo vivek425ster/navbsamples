@@ -9,19 +9,19 @@ namespace TestProject
         [TestMethod]
         public void TestMethod1()
         {
-            System.Threading.Thread.Sleep(10*1000);
+            //System.Threading.Thread.Sleep(10*1000);
         }
 
         [TestMethod]
         public void TestMethod2()
         {
-            System.Threading.Thread.Sleep(10*1000);
+            //System.Threading.Thread.Sleep(10*1000);
         }
 
         [TestMethod]
         public void TestMethod3()
         {
-            System.Threading.Thread.Sleep(10*1000);
+            //System.Threading.Thread.Sleep(10*1000);
         }
     }
 }
