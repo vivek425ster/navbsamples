@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0de76bdb-af5a-4a8a-9b62-878c9e22ffa2" name="navb@NAVB4 2019-08-09 07:25:47" runUser="FAREAST\navb" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2019-08-09T07:25:47.6302070-04:00" queuing="2019-08-09T07:25:47.6302070-04:00" start="0001-1-1T00:00:00-04:00" finish="0001-1-1T00:00:00-04:00" />
+  <TestSettings name="default" id="91e53f1a-7660-474d-9ab1-1197553c348b">
+    <Deployment runDeploymentRoot="navb_NAVB4_2019-08-09_07_25_47" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ed48f70a-ec9f-49e4-b078-026e6cb4a660" testId="6d957b0a-0e58-d066-9ee5-5c1e0ad0516f" testName="TestMethod1" computerName="NAVB4" duration="00:00:00.0040000" startTime="0001-1-1T00:00:00-04:00" endTime="0001-1-1T00:00:00-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed48f70a-ec9f-49e4-b078-026e6cb4a660">
+      <Output>
+        <ErrorInfo>
+          <Message>No arguments were provided</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="g:\repos\nunittestproj\nunittestmseng\bin\debug\nunittestmseng.dll" id="6d957b0a-0e58-d066-9ee5-5c1e0ad0516f">
+      <Execution id="ed48f70a-ec9f-49e4-b078-026e6cb4a660" />
+      <TestMethod codeBase="G:\repos\NUnitTestProj\NUnitTestMseng\bin\Debug\NUnitTestMseng.dll" adapterTypeName="executor://nunit3testexecutor/" className="NUnitTestMseng.UnitTest1" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6d957b0a-0e58-d066-9ee5-5c1e0ad0516f" executionId="ed48f70a-ec9f-49e4-b078-026e6cb4a660" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.13.0.0: Test execution startedRunning all tests in G:\repos\NUnitTestProj\NUnitTestMseng\bin\Debug\NUnitTestMseng.dll   NUnit3TestExecutor converted 1 of 1 NUnit test casesNUnit Adapter 3.13.0.0: Test execution complete</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
