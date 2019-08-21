@@ -8,8 +8,8 @@ trigger:
 
 pool:
 #  name: Default
-#   name: 'Hosted Windows 2019 with VS2019'
-    name: 'navbpool'
+   name: 'Hosted Windows 2019 with VS2019'
+#    name: 'navbpool'
 # from Azure VM
 #  demands:
 #    - msbuild
