@@ -41,7 +41,7 @@ steps:
     platform: '$(BuildPlatform)'
     configuration: '$(BuildConfiguration)'
   continueOnError: true
-  enabled: false
+  enabled: true
 
 - task: PublishTestResults@2
   displayName: 'Publish Test Results **/ResultsFileSamples/VsTsResults/*.trx'
@@ -49,7 +49,7 @@ steps:
     testResultsFormat: VSTest
     testResultsFiles: '**/ResultsFileSamples/VsTsResults/*.trx'
   continueOnError: true
-  enabled: true
+  enabled: false
   
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
