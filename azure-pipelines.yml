@@ -8,13 +8,14 @@ trigger:
 
 pool:
 #  name: Default
-   name: 'Hosted Windows 2019 with VS2019'
+   name: 'ksmis'
 #    name: 'navbpool'
 # from Azure VM
 #  demands:
 #    - msbuild
 #    - visualstudio
 #    - vstest
+# Hosted Windows 2019 with VS2019
 
 variables:
   solution: '**/*.sln'
