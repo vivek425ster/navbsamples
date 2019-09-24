@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestProject
@@ -13,6 +14,8 @@ namespace TestProject
         [Priority(1)]
         public void WillPassOnReRun1()
         {
+            Console.WriteLine("Result level attachments");
+            Debug.WriteLine("Debug Attachemts");
             Assert.IsTrue(i++ % 4 == 0);
         }
 
@@ -22,18 +25,21 @@ namespace TestProject
         [Priority(2)]
         public void WillPassOnReRun11()
         {
+            Console.WriteLine("Result level attachments");
             Assert.IsTrue(i++ % 4 == 0);
         }
         
         [TestMethod]
         public void TestMethod1()
         {
+            Console.WriteLine("Result level attachments");
             Assert.AreEqual(0, 1);
         }
 
         [TestMethod]
         public void TestMethod2()
         {
+            Console.WriteLine("Result level attachments");
             Assert.AreEqual(0, 1);
         }
 
