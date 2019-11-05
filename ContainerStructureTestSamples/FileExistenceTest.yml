@@ -1,10 +1,10 @@
 schemaVersion: '2.0.0'
 
 fileExistenceTests:
-- name: 'Requirement file Exist test'
-  path: 'ContainerApp/requirement.txt'
+- name: 'Root'
+  path: '/'
   shouldExist: true
 
-- name: 'Config File Exist test'
-  path: 'ContainerApp/config.txt'
+- name: 'Navin File'
+  path: '/navin.txt'
   shouldExist: true
