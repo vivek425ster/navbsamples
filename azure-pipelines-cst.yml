@@ -1,0 +1,12 @@
+pool:
+  name: navbp
+
+steps:
+- task: ContainerStructureTest@0
+  displayName: 'Container Structure Test '
+  inputs:
+    dockerRegistryServiceConnection: 'navin_dockerHub'
+    repository: navb/hellodocker
+    tag: v1
+    configFile: ContainerStructureTestSamples/FileExistenceTest.yml
+    testRunTitle: 'File Existence test'
