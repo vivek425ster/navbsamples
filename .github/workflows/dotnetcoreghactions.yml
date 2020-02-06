@@ -22,7 +22,7 @@ jobs:
       uses: brpaz/structure-tests-action@v1.1.2
       with:
         # The Docker image to test
-        image: navb/hellodocker
+        image: https://hub.docker.com/r/navb/hellodocker
         # Path to the config file
         configFile: ContainerStructureTestSamples/FileExistenceTest.yml
       
