@@ -17,6 +17,7 @@ jobs:
       run: dotnet build DotNetCoreProject/DotNetCoreProject.csproj
     - name: Test with dotnet
       run: dotnet test DotNetCoreProject/DotNetCoreProject.csproj
+      continue-on-error: true
     - name: Container Structure Tests
       uses: brpaz/structure-tests-action@v1.1.2
       with:
