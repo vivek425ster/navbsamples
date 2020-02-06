@@ -16,5 +16,5 @@ jobs:
     - name: Build with dotnet
       run: dotnet build DotNetCoreProject/DotNetCoreProject.csproj
     - name: Test with dotnet
-      run: dotnet test
+      run: dotnet test DotNetCoreProject/DotNetCoreProject.csproj
       
