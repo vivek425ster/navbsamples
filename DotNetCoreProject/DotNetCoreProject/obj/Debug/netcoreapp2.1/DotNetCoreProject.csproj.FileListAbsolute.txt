@@ -1,0 +1,14 @@
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\bin\Debug\netcoreapp2.1\DotNetCoreProject.deps.json
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\bin\Debug\netcoreapp2.1\DotNetCoreProject.runtimeconfig.json
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\bin\Debug\netcoreapp2.1\DotNetCoreProject.runtimeconfig.dev.json
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\bin\Debug\netcoreapp2.1\DotNetCoreProject.dll
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\bin\Debug\netcoreapp2.1\DotNetCoreProject.pdb
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\obj\Debug\netcoreapp2.1\DotNetCoreProject.csprojAssemblyReference.cache
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\obj\Debug\netcoreapp2.1\DotNetCoreProject.csproj.CoreCompileInputs.cache
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\obj\Debug\netcoreapp2.1\DotNetCoreProject.AssemblyInfoInputs.cache
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\obj\Debug\netcoreapp2.1\DotNetCoreProject.AssemblyInfo.cs
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\obj\Debug\netcoreapp2.1\DotNetCoreProject.dll
+G:\repos\navbsamples\DotNetCoreProject\DotNetCoreProject\obj\Debug\netcoreapp2.1\DotNetCoreProject.pdb
