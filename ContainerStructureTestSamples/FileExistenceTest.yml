@@ -5,6 +5,6 @@ fileExistenceTests:
   path: '/'
   shouldExist: true
 
-- name: 'Navin File'
-  path: '/navin.txt'
+- name: 'App File Exist'
+  path: '/app/app.py'
   shouldExist: true
