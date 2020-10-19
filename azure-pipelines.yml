@@ -1,12 +1,14 @@
 pool:
-  name: navbp
 
 steps:
-- task: ContainerStructureTest@0
-  displayName: 'Container Structure Test '
+- task: VSTest@2
   inputs:
-    dockerRegistryServiceConnection: 'navin_dockerHub'
-    repository: navb/hellodocker
-    tag: v1
-    configFile: ContainerStructureTestSamples/FileExistenceTest.yml
-    testRunTitle: 'File Existence test'
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: |
+      **\*test*.dll
+      !**\*TestAdapter.dll
+      !**\obj\**
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    rerunFailedTests: true
+    rerunMaxAttempts: '10'
+  name: navbp
