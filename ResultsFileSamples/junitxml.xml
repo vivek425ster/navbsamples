@@ -5,6 +5,8 @@
          <testcase classname="com.contoso.billingservice.ConsoleMessageRendererTest" name="testRenderNullMessage" testType="asdasdas" time="0.001" />
          <testcase classname="com.contoso.billingservice.ConsoleMessageRendererTest" name="testRenderMessage" time="0.003">
             <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError at com.contoso.billingservice.ConsoleMessageRendererTest.testRenderMessage(ConsoleMessageRendererTest.java:11)</failure>
+            <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError at com.contoso.billingservice.ConsoleMessageRendererTest.testRenderMessage(ConsoleMessageRendererTest.java:11)</failure>
+            <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError at com.contoso.billingservice.ConsoleMessageRendererTest.testRenderMessage(ConsoleMessageRendererTest.java:11)</failure>
          </testcase>
          <system-out><![CDATA[Hello World!]]></system-out>
          <system-err />
