@@ -1,0 +1,16 @@
+pool:
+  name: Azure Pipelines
+stages:
+- job: "JOb1"
+steps:
+- task: PublishTestResults@2
+  displayName: 'Publish Test Results **/junitxml.xml'
+  inputs:
+    testResultsFiles: '**/junitxml.xml'
+
+- job: "Job2"
+steps:
+- task: PublishTestResults@2
+  displayName: 'Publish Test Results **/junitxml.xml'
+  inputs:
+    testResultsFiles: '**/junitxml.xml'
